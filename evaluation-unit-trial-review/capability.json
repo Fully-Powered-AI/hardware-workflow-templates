@@ -1,0 +1,47 @@
+{
+  "id": "evaluation-unit-trial-review",
+  "name": "Evaluation unit trial review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a customer's evaluation reaches its review milestone, the account engineer and account owner get a trial-review agenda that sets the agreed use case beside the recorded results, setup changes and feedback, with every gap turned into a question and next-step options.",
+  "directory": "https://fullypowered.ai/capabilities/evaluation-unit-trial-review/",
+  "primary_function": "functions/sales",
+  "functions": [
+    "functions/sales",
+    "functions/customer-success-and-account-management"
+  ],
+  "industries": [
+    "industries/hardware-and-physical-technology",
+    "industries/manufacturing",
+    "industries/energy"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "quarterly-business-review-preparation",
+    "account-commitments-check",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of how a hardware company brings a customer evaluation back to the use case agreed at the start: the agreed criteria, the recorded results, the setup as it was run, the customer's feedback and the support history, each with set column headers; every result labelled by where it was run; every gap turned into a question for the person who can answer it."
+    }
+  ]
+}

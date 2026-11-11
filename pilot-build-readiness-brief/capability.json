@@ -1,0 +1,49 @@
+{
+  "id": "pilot-build-readiness-brief",
+  "name": "Pilot build readiness brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before a prototype or pilot build, the build lead gets one brief: part shortages, revision conflicts and open actions set against the team’s own build checklist, with allocated parts kept apart from received ones. People confirm; nothing is released.",
+  "directory": "https://fullypowered.ai/capabilities/pilot-build-readiness-brief/",
+  "primary_function": "functions/project-and-delivery",
+  "functions": [
+    "functions/project-and-delivery",
+    "functions/quality-management",
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/hardware-and-physical-technology",
+    "industries/manufacturing",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/startups-and-new-ventures",
+    "situations/growth-and-scaling",
+    "situations/new-business-lines"
+  ],
+  "related": [
+    "job-readiness-packet",
+    "production-schedule-rebuild",
+    "kit-component-availability-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work of hardware teams, the build readiness area."
+    }
+  ]
+}

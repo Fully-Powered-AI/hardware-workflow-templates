@@ -1,0 +1,47 @@
+{
+  "id": "component-end-of-life-exposure-brief",
+  "name": "Component end-of-life exposure brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a supplier announces a component constraint or end-of-life date, the sourcing lead gets one brief: where the part is used, stock and demand set against the stated dates, and questions about replacements, with unverified availability kept apart from approved supply.",
+  "directory": "https://fullypowered.ai/capabilities/component-end-of-life-exposure-brief/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/hardware-and-physical-technology",
+    "industries/manufacturing",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "supplier-risk-alert-brief",
+    "inventory-reorder-plan",
+    "kit-component-availability-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of reading a supplier's component notice against where-used, stock and demand records, with its own rules for prepared work"
+    }
+  ]
+}

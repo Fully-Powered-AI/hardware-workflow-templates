@@ -1,0 +1,46 @@
+{
+  "id": "engineering-change-affected-records-index",
+  "name": "Engineering change affected records index",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When an engineering change request enters review, the document controller gets one index: the assemblies, revisions, stock and open purchase orders the change reaches in the exports supplied, and a question for each owner wherever the records are unclear.",
+  "directory": "https://fullypowered.ai/capabilities/engineering-change-affected-records-index/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/hardware-and-physical-technology",
+    "industries/consumer-brands",
+    "industries/energy"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "design-assumption-change-register",
+    "scope-change-impact-review",
+    "obsolete-copy-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of how a hardware company follows an engineering change into its records: the change request, the bill of materials, the drawing index, stock and open purchase orders, each with set column headers; every revision compared as written; every gap turned into a question for the person who owns the answer."
+    }
+  ]
+}
