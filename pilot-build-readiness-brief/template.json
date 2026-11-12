@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before a prototype or pilot build, the build lead gets one brief: part shortages, revision conflicts and open actions set against the team’s own build checklist, with allocated parts kept apart from received ones. People confirm; nothing is released.",
-  "directory": "https://fullypowered.ai/workflow templates/pilot-build-readiness-brief/",
+  "directory": "https://fullypowered.ai/workflows/pilot-build-readiness-brief/",
   "primary_function": "functions/project-and-delivery",
   "functions": [
     "functions/project-and-delivery",

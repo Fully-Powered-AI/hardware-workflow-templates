@@ -2,7 +2,7 @@
 
 When a customer's evaluation reaches its review milestone, the account engineer and account owner get a trial-review agenda that sets the agreed use case beside the recorded results, setup changes and feedback, with every gap turned into a question and next-step options.
 
-*Workflow template · Hardware and physical technology · Sales · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/evaluation-unit-trial-review/)*
+*Workflow template · Hardware and physical technology · Sales · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/evaluation-unit-trial-review/)*
 
 ## The outcome
 
@@ -78,9 +78,9 @@ Testing in your environment means running it on a past evaluation your account e
 
 ## Related workflow templates
 
-- [Quarterly business review preparation](https://fullypowered.ai/workflow templates/quarterly-business-review-preparation/)
-- [Account commitments check](https://fullypowered.ai/workflow templates/account-commitments-check/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Quarterly business review preparation](https://fullypowered.ai/workflows/quarterly-business-review-preparation/)
+- [Account commitments check](https://fullypowered.ai/workflows/account-commitments-check/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

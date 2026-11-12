@@ -2,7 +2,7 @@
 
 When a supplier announces a component constraint or end-of-life date, the sourcing lead gets one brief: where the part is used, stock and demand set against the stated dates, and questions about replacements, with unverified availability kept apart from approved supply.
 
-*Workflow template · Hardware and physical technology · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/component-end-of-life-exposure-brief/)*
+*Workflow template · Hardware and physical technology · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/)*
 
 ## The outcome
 
@@ -78,9 +78,9 @@ Testing in your environment means running it on a past notice your sourcing lead
 
 ## Related workflow templates
 
-- [Supplier risk alert brief](https://fullypowered.ai/workflow templates/supplier-risk-alert-brief/)
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
-- [Kit component availability check](https://fullypowered.ai/workflow templates/kit-component-availability-check/)
+- [Supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
+- [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/)
 
 ## Make it yours
 

@@ -2,7 +2,7 @@
 
 When a failed-unit report or return request arrives, the service coordinator gets one brief tying the customer's report to each unit's shipment record, serial and recorded configuration, with unmatched serials and missing evidence listed. It names no cause.
 
-*Workflow template · Hardware and physical technology · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/returned-unit-review-brief/)*
+*Workflow template · Hardware and physical technology · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/returned-unit-review-brief/)*
 
 ## The outcome
 
@@ -76,9 +76,9 @@ Testing in your environment means running it on a past return your service team 
 
 ## Related workflow templates
 
-- [Field issue handoff to engineering](https://fullypowered.ai/workflow templates/field-issue-handoff-to-engineering/)
-- [Complaint and refund request handling](https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/)
-- [Nonconformity record draft](https://fullypowered.ai/workflow templates/nonconformity-record-draft/)
+- [Field issue handoff to engineering](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/)
+- [Complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/)
+- [Nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/)
 
 ## Make it yours
 

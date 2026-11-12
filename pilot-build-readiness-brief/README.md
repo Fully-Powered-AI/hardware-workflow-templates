@@ -2,7 +2,7 @@
 
 Before a prototype or pilot build, the build lead gets one brief: part shortages, revision conflicts and open actions set against the team’s own build checklist, with allocated parts kept apart from received ones. People confirm; nothing is released.
 
-*Workflow template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/pilot-build-readiness-brief/)*
+*Workflow template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/pilot-build-readiness-brief/)*
 
 ## The outcome
 
@@ -83,9 +83,9 @@ Testing in your environment means running it on a past build your team already k
 
 ## Related workflow templates
 
-- [Job readiness packet](https://fullypowered.ai/workflow templates/job-readiness-packet/)
-- [Production schedule rebuild](https://fullypowered.ai/workflow templates/production-schedule-rebuild/)
-- [Kit component availability check](https://fullypowered.ai/workflow templates/kit-component-availability-check/)
+- [Job readiness packet](https://fullypowered.ai/workflows/job-readiness-packet/)
+- [Production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/)
+- [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/)
 
 ## Make it yours
 

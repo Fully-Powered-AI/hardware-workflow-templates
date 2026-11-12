@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a customer's evaluation reaches its review milestone, the account engineer and account owner get a trial-review agenda that sets the agreed use case beside the recorded results, setup changes and feedback, with every gap turned into a question and next-step options.",
-  "directory": "https://fullypowered.ai/workflow templates/evaluation-unit-trial-review/",
+  "directory": "https://fullypowered.ai/workflows/evaluation-unit-trial-review/",
   "primary_function": "functions/sales",
   "functions": [
     "functions/sales",

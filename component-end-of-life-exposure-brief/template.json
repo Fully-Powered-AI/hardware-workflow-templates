@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a supplier announces a component constraint or end-of-life date, the sourcing lead gets one brief: where the part is used, stock and demand set against the stated dates, and questions about replacements, with unverified availability kept apart from approved supply.",
-  "directory": "https://fullypowered.ai/workflow templates/component-end-of-life-exposure-brief/",
+  "directory": "https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",

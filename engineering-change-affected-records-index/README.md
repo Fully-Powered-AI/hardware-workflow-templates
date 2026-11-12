@@ -2,7 +2,7 @@
 
 When an engineering change request enters review, the document controller gets one index: the assemblies, revisions, stock and open purchase orders the change reaches in the exports supplied, and a question for each owner wherever the records are unclear.
 
-*Workflow template · Hardware and physical technology · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/engineering-change-affected-records-index/)*
+*Workflow template · Hardware and physical technology · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/engineering-change-affected-records-index/)*
 
 ## The outcome
 
@@ -76,9 +76,9 @@ Testing in your environment means running it on a past change you already know, 
 
 ## Related workflow templates
 
-- [Design assumption change register](https://fullypowered.ai/workflow templates/design-assumption-change-register/)
-- [Scope change impact review](https://fullypowered.ai/workflow templates/scope-change-impact-review/)
-- [Obsolete copy check](https://fullypowered.ai/workflow templates/obsolete-copy-check/)
+- [Design assumption change register](https://fullypowered.ai/workflows/design-assumption-change-register/)
+- [Scope change impact review](https://fullypowered.ai/workflows/scope-change-impact-review/)
+- [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/)
 
 ## Make it yours
 

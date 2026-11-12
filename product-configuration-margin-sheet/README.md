@@ -2,7 +2,7 @@
 
 When sales prepares a quote for a product configuration, the commercial owner and finance lead get one worksheet: the quoted price, the costed bill of materials, assembly and freight, and the allocations, with every unquoted part, one-off charge and uncertain volume listed as an open assumption.
 
-*Workflow template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/product-configuration-margin-sheet/)*
+*Workflow template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-configuration-margin-sheet/)*
 
 ## The outcome
 
@@ -81,9 +81,9 @@ Testing in your environment means running it on a past quote your finance lead a
 
 ## Related workflow templates
 
-- [Product landed cost worksheet](https://fullypowered.ai/workflow templates/product-landed-cost-worksheet/)
-- [Discount request review](https://fullypowered.ai/workflow templates/discount-request-review/)
-- [Price change review](https://fullypowered.ai/workflow templates/price-change-review/)
+- [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/)
+- [Discount request review](https://fullypowered.ai/workflows/discount-request-review/)
+- [Price change review](https://fullypowered.ai/workflows/price-change-review/)
 
 ## Make it yours
 
