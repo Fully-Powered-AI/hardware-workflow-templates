@@ -2,15 +2,15 @@
 
 When a failed-unit report or return request arrives, the service coordinator gets one brief tying the customer's report to each unit's shipment record, serial and recorded configuration, with unmatched serials and missing evidence listed. It names no cause.
 
-*Capability template · Hardware and physical technology · Customer support and service · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/returned-unit-review-brief/)*
+*Workflow template · Hardware and physical technology · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/returned-unit-review-brief/)*
 
 ## The outcome
 
-A customer writes that three units have stopped working and wants them replaced. Before anyone can decide what happens, someone has to find out which units those are, what was shipped, how each was configured and what the customer has not yet told you. This capability template does that reading. It takes the report, your shipment records, your recorded configuration and your support policy, and puts them in one brief.
+A customer writes that three units have stopped working and wants them replaced. Before anyone can decide what happens, someone has to find out which units those are, what was shipped, how each was configured and what the customer has not yet told you. This workflow template does that reading. It takes the report, your shipment records, your recorded configuration and your support policy, and puts them in one brief.
 
 Each serial the customer quotes is matched to the shipment record only when it is identical. A serial that is one character away from a record is listed as a possible match and never chosen for you. For every matched unit the brief shows the product, revision, ship date, order and the configuration on file, the days since it shipped against the period your policy states, and anything recorded after shipment. Changes the customer mentions, such as a part swapped, are listed as reported. The evidence your policy asks for is checked off unit by unit, and what is missing is listed.
 
-Any mention of heat, a burning smell, smoke, swelling or injury goes to the top of the brief with the specialist your policy names, before anything else. The brief identifies no fault, says nothing about whether a unit meets its specification and recommends no handling. For a case already with engineering, use [field issue handoff to engineering](https://fullypowered.ai/capabilities/field-issue-handoff-to-engineering/); for a complaint or refund request on its own, [complaint and refund request handling](https://fullypowered.ai/capabilities/complaint-and-refund-request-handling/); to record a nonconformity, [nonconformity record draft](https://fullypowered.ai/capabilities/nonconformity-record-draft/).
+Any mention of heat, a burning smell, smoke, swelling or injury goes to the top of the brief with the specialist your policy names, before anything else. The brief identifies no fault, says nothing about whether a unit meets its specification and recommends no handling. For a case already with engineering, use [field issue handoff to engineering](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/); for a complaint or refund request on its own, [complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/); to record a nonconformity, [nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/).
 
 ## Who starts the work, and when
 
@@ -47,9 +47,9 @@ Check that your exports have the default column headers listed in the template, 
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the person running it had already read the example's brief and the record of an earlier run, so it shows the revised instructions reach the example's brief, not that they would on a stranger's records. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the person running it had already read the example's brief and the record of an earlier run, so it shows the revised instructions reach the example's brief, not that they would on a stranger's records. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past return your service team already knows well, plus cases written in advance: a serial one digit off, a serial that appears twice, a report that mentions heat, a header that does not match. The coordinator checks every record against the exports before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set.
+Testing in your environment means running it on a past return your service team already knows well, plus cases written in advance: a serial one digit off, a serial that appears twice, a report that mentions heat, a header that does not match. The coordinator checks every record against the exports before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -60,11 +60,11 @@ Testing in your environment means running it on a past return your service team 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -74,12 +74,12 @@ Testing in your environment means running it on a past return your service team 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Field issue handoff to engineering](https://fullypowered.ai/capabilities/field-issue-handoff-to-engineering/)
-- [Complaint and refund request handling](https://fullypowered.ai/capabilities/complaint-and-refund-request-handling/)
-- [Nonconformity record draft](https://fullypowered.ai/capabilities/nonconformity-record-draft/)
+- [Field issue handoff to engineering](https://fullypowered.ai/workflow templates/field-issue-handoff-to-engineering/)
+- [Complaint and refund request handling](https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/)
+- [Nonconformity record draft](https://fullypowered.ai/workflow templates/nonconformity-record-draft/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

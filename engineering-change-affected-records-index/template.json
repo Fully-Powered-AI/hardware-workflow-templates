@@ -1,12 +1,13 @@
 {
   "id": "engineering-change-affected-records-index",
   "name": "Engineering change affected records index",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When an engineering change request enters review, the document controller gets one index: the assemblies, revisions, stock and open purchase orders the change reaches in the exports supplied, and a question for each owner wherever the records are unclear.",
-  "directory": "https://fullypowered.ai/capabilities/engineering-change-affected-records-index/",
-  "primary_function": "functions/operations-and-process-improvement",
+  "directory": "https://fullypowered.ai/workflow templates/engineering-change-affected-records-index/",
+  "primary_function": "functions/quality-management",
   "functions": [
+    "functions/quality-management",
     "functions/operations-and-process-improvement"
   ],
   "industries": [

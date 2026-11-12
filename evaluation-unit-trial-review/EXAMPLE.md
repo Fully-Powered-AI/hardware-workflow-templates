@@ -1,6 +1,6 @@
 # Evaluation unit trial review: an invented example
 
-*Illustrative example with invented data.* The company, the customer, the people, the product, the readings and the dates below are all invented. Tarnwick Devices is an invented maker of a flow monitor. Customer B is an invented regional water utility that has had one evaluation unit for six weeks. Ines is the account engineer and Marcus is the account owner. First come the inputs they supplied, in full, then the agenda the capability returned.
+*Illustrative example with invented data.* The company, the customer, the people, the product, the readings and the dates below are all invented. Tarnwick Devices is an invented maker of a flow monitor. Customer B is an invented regional water utility that has had one evaluation unit for six weeks. Ines is the account engineer and Marcus is the account owner. First come the inputs they supplied, in full, then the agenda the workflow template returned.
 
 ## The inputs
 

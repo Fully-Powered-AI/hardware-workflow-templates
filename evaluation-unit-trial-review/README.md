@@ -2,11 +2,11 @@
 
 When a customer's evaluation reaches its review milestone, the account engineer and account owner get a trial-review agenda that sets the agreed use case beside the recorded results, setup changes and feedback, with every gap turned into a question and next-step options.
 
-*Capability template · Hardware and physical technology · Sales · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/evaluation-unit-trial-review/)*
+*Workflow template · Hardware and physical technology · Sales · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/evaluation-unit-trial-review/)*
 
 ## The outcome
 
-An evaluation unit sits with a customer for weeks, and by the review meeting the picture has usually drifted. The use case that was agreed lives in one email, the results in an engineer's log, the setup changes in memory and the customer's opinion in a few messages. This capability template pulls them back together. It reads the agreed criteria, the results, the configuration log, the feedback and the support history, and writes the agenda for the review meeting.
+An evaluation unit sits with a customer for weeks, and by the review meeting the picture has usually drifted. The use case that was agreed lives in one email, the results in an engineer's log, the setup changes in memory and the customer's opinion in a few messages. This workflow template pulls them back together. It reads the agreed criteria, the results, the configuration log, the feedback and the support history, and writes the agenda for the review meeting.
 
 Every criterion appears with what was recorded against it, and every result is labelled by where it was run: on the bench or at the customer's site. A bench result stays a bench result. The agenda never says a unit has been accepted or that it performs in the field; it shows the latest recorded value next to the target as written and leaves the reading to the people in the room.
 
@@ -41,7 +41,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/), where trials are run by a few engineers and the record lives in their own files.
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more evaluations run at once than one engineer can hold in mind.
 
-It stands apart from three neighbours. [Quarterly business review preparation](https://fullypowered.ai/capabilities/quarterly-business-review-preparation/) is for an existing customer's regular review. [Account commitments check](https://fullypowered.ai/capabilities/account-commitments-check/) lists what each side promised. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) writes the tests before a pilot begins. This one starts after the evaluation has run.
+It stands apart from three neighbours. [Quarterly business review preparation](https://fullypowered.ai/workflows/quarterly-business-review-preparation/) is for an existing customer's regular review. [Account commitments check](https://fullypowered.ai/workflows/account-commitments-check/) lists what each side promised. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) writes the tests before a pilot begins. This one starts after the evaluation has run.
 
 ## What has to change for your company
 
@@ -49,9 +49,9 @@ Check that your files have the default column headers listed in the template, or
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once in Claude on 2026-11-10 on its invented example, in a run that saw the example's output first, so that run is weaker evidence than a blind one. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once in Claude on 2026-11-10 on its invented example, in a run that saw the example's output first, so that run is weaker evidence than a blind one. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past evaluation your account engineer already knows well, plus cases written in advance: a header that does not match, a result under a setup version that is not in the log, a criterion with only bench results, a target written as text. The account engineer checks every figure against the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past evaluation your account engineer already knows well, plus cases written in advance: a header that does not match, a result under a setup version that is not in the log, a criterion with only bench results, a target written as text. The account engineer checks every figure against the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -62,11 +62,11 @@ Testing in your environment means running it on a past evaluation your account e
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -76,12 +76,12 @@ Testing in your environment means running it on a past evaluation your account e
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Quarterly business review preparation](https://fullypowered.ai/capabilities/quarterly-business-review-preparation/)
-- [Account commitments check](https://fullypowered.ai/capabilities/account-commitments-check/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)
+- [Quarterly business review preparation](https://fullypowered.ai/workflow templates/quarterly-business-review-preparation/)
+- [Account commitments check](https://fullypowered.ai/workflow templates/account-commitments-check/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

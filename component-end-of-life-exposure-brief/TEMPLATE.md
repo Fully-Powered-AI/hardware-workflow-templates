@@ -1,6 +1,6 @@
 # Component end-of-life exposure brief
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,9 +12,9 @@ Use it when a supplier notice about a named part arrives, and again when the not
 
 Do not use it:
 
-- to follow a supplier's wider trouble that names no part. Use the supplier risk alert brief capability for that;
-- to plan routine replenishment. Use the inventory reorder plan capability;
-- to find what can be built from the components on hand. Use the kit component availability check capability;
+- to follow a supplier's wider trouble that names no part. Use the supplier risk alert brief workflow template for that;
+- to plan routine replenishment. Use the inventory reorder plan workflow template;
+- to find what can be built from the components on hand. Use the kit component availability check workflow template;
 - to find new notices. A person brings the notice;
 - to judge whether an alternate fits, works or is safe to use. Component engineering does that;
 - to decide a purchase, a price, a quantity or a supplier. Sourcing does that.

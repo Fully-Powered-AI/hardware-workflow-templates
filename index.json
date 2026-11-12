@@ -1,15 +1,15 @@
 {
-  "repository": "Fully-Powered-AI/hardware-capability-templates",
+  "repository": "Fully-Powered-AI/hardware-workflow-templates",
   "title": "Hardware and Physical Technology",
   "term": "industries/hardware-and-physical-technology",
-  "capabilities": [
+  "templates": [
     {
       "id": "component-end-of-life-exposure-brief",
       "name": "Component end-of-life exposure brief",
       "version": "0.1.0",
       "summary": "When a supplier announces a component constraint or end-of-life date, the sourcing lead gets one brief: where the part is used, stock and demand set against the stated dates, and questions about replacements, with unverified availability kept apart from approved supply.",
       "path": "component-end-of-life-exposure-brief/",
-      "directory": "https://fullypowered.ai/capabilities/component-end-of-life-exposure-brief/"
+      "directory": "https://fullypowered.ai/workflow templates/component-end-of-life-exposure-brief/"
     },
     {
       "id": "engineering-change-affected-records-index",
@@ -17,7 +17,7 @@
       "version": "0.1.0",
       "summary": "When an engineering change request enters review, the document controller gets one index: the assemblies, revisions, stock and open purchase orders the change reaches in the exports supplied, and a question for each owner wherever the records are unclear.",
       "path": "engineering-change-affected-records-index/",
-      "directory": "https://fullypowered.ai/capabilities/engineering-change-affected-records-index/"
+      "directory": "https://fullypowered.ai/workflow templates/engineering-change-affected-records-index/"
     },
     {
       "id": "evaluation-unit-trial-review",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "summary": "When a customer's evaluation reaches its review milestone, the account engineer and account owner get a trial-review agenda that sets the agreed use case beside the recorded results, setup changes and feedback, with every gap turned into a question and next-step options.",
       "path": "evaluation-unit-trial-review/",
-      "directory": "https://fullypowered.ai/capabilities/evaluation-unit-trial-review/"
+      "directory": "https://fullypowered.ai/workflow templates/evaluation-unit-trial-review/"
     },
     {
       "id": "pilot-build-readiness-brief",
@@ -33,7 +33,7 @@
       "version": "0.1.0",
       "summary": "Before a prototype or pilot build, the build lead gets one brief: part shortages, revision conflicts and open actions set against the team’s own build checklist, with allocated parts kept apart from received ones. People confirm; nothing is released.",
       "path": "pilot-build-readiness-brief/",
-      "directory": "https://fullypowered.ai/capabilities/pilot-build-readiness-brief/"
+      "directory": "https://fullypowered.ai/workflow templates/pilot-build-readiness-brief/"
     },
     {
       "id": "product-configuration-margin-sheet",
@@ -41,7 +41,7 @@
       "version": "0.1.0",
       "summary": "When sales prepares a quote for a product configuration, the commercial owner and finance lead get one worksheet: the quoted price, the costed bill of materials, assembly and freight, and the allocations, with every unquoted part, one-off charge and uncertain volume listed as an open assumption.",
       "path": "product-configuration-margin-sheet/",
-      "directory": "https://fullypowered.ai/capabilities/product-configuration-margin-sheet/"
+      "directory": "https://fullypowered.ai/workflow templates/product-configuration-margin-sheet/"
     },
     {
       "id": "returned-unit-review-brief",
@@ -49,7 +49,7 @@
       "version": "0.1.0",
       "summary": "When a failed-unit report or return request arrives, the service coordinator gets one brief tying the customer's report to each unit's shipment record, serial and recorded configuration, with unmatched serials and missing evidence listed. It names no cause.",
       "path": "returned-unit-review-brief/",
-      "directory": "https://fullypowered.ai/capabilities/returned-unit-review-brief/"
+      "directory": "https://fullypowered.ai/workflow templates/returned-unit-review-brief/"
     }
   ]
 }

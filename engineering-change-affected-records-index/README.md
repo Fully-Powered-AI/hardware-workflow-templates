@@ -2,7 +2,7 @@
 
 When an engineering change request enters review, the document controller gets one index: the assemblies, revisions, stock and open purchase orders the change reaches in the exports supplied, and a question for each owner wherever the records are unclear.
 
-*Capability template · Hardware and physical technology · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/engineering-change-affected-records-index/)*
+*Workflow template · Hardware and physical technology · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/engineering-change-affected-records-index/)*
 
 ## The outcome
 
@@ -35,10 +35,11 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), where a packaging or component change reaches stock and suppliers. The same assembly-and-revision walk applies to a product with a bill of materials and open orders.
 - [Energy](https://fullypowered.ai/industries/energy/), where equipment makers and service teams track revisions across assemblies and spares. It suits a team that holds a bill of materials, a drawing index, stock and orders for its equipment.
 - [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), which owns the records around a change.
+- [Quality management](https://fullypowered.ai/functions/quality-management/), which controls the documents and records an engineering change touches.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/), where product records have years of revisions in them.
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when change requests multiply faster than one person can trace them.
 
-It is a different piece of work from [Design assumption change register](https://fullypowered.ai/capabilities/design-assumption-change-register/), which records changes to design criteria, from [Scope change impact review](https://fullypowered.ai/capabilities/scope-change-impact-review/), which weighs new work against a project plan, and from [Obsolete copy check](https://fullypowered.ai/capabilities/obsolete-copy-check/), which looks for withdrawn documents still in use. This one starts from an engineering change request and follows it into the parts, stock and orders.
+It is a different piece of work from [Design assumption change register](https://fullypowered.ai/workflows/design-assumption-change-register/), which records changes to design criteria, from [Scope change impact review](https://fullypowered.ai/workflows/scope-change-impact-review/), which weighs new work against a project plan, and from [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/), which looks for withdrawn documents still in use. This one starts from an engineering change request and follows it into the parts, stock and orders.
 
 ## What has to change for your company
 
@@ -46,9 +47,9 @@ Fix the column headers of your five exports once, or map your system's names to 
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026, and an independent reviewer's findings have since been fixed. It was tried on its invented example in Claude on 10 November 2026, and the record is published with it. No run has yet been made by someone who had not seen the answer. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026, and an independent reviewer's findings have since been fixed. It was tried on its invented example in Claude on 10 November 2026, and the record is published with it. No run has yet been made by someone who had not seen the answer. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past change you already know, with cases written in advance: a part with no revision in the bill of materials, stock with no revision recorded, a substitute named but not approved. The document controller checks every line against the exports before anyone relies on the index. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your environment means running it on a past change you already know, with cases written in advance: a part with no revision in the bill of materials, stock with no revision recorded, a substitute named but not approved. The document controller checks every line against the exports before anyone relies on the index. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -59,11 +60,11 @@ Testing in your environment means running it on a past change you already know, 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -73,12 +74,12 @@ Testing in your environment means running it on a past change you already know, 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Design assumption change register](https://fullypowered.ai/capabilities/design-assumption-change-register/)
-- [Scope change impact review](https://fullypowered.ai/capabilities/scope-change-impact-review/)
-- [Obsolete copy check](https://fullypowered.ai/capabilities/obsolete-copy-check/)
+- [Design assumption change register](https://fullypowered.ai/workflow templates/design-assumption-change-register/)
+- [Scope change impact review](https://fullypowered.ai/workflow templates/scope-change-impact-review/)
+- [Obsolete copy check](https://fullypowered.ai/workflow templates/obsolete-copy-check/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

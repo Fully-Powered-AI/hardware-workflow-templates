@@ -2,15 +2,15 @@
 
 When a supplier announces a component constraint or end-of-life date, the sourcing lead gets one brief: where the part is used, stock and demand set against the stated dates, and questions about replacements, with unverified availability kept apart from approved supply.
 
-*Capability template · Hardware and physical technology · Supply chain and inventory · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/component-end-of-life-exposure-brief/)*
+*Workflow template · Hardware and physical technology · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/component-end-of-life-exposure-brief/)*
 
 ## The outcome
 
-A supplier notice arrives as a short message with a date in it, and the first hours go to finding out what it touches. This capability template does that reading. It takes the notice, your where-used export, your stock and your demand plan, and puts them in one brief: which of your assemblies use the part, how much of it you hold and have on a dated order, how much your plan will need, and the month in which approved supply runs short.
+A supplier notice arrives as a short message with a date in it, and the first hours go to finding out what it touches. This workflow template does that reading. It takes the notice, your where-used export, your stock and your demand plan, and puts them in one brief: which of your assemblies use the part, how much of it you hold and have on a dated order, how much your plan will need, and the month in which approved supply runs short.
 
 Every date in the brief comes from the notice and is shown with the days remaining. Nothing is assumed where the notice is silent; it says "not stated". Supply is counted only when it is held or on an order with a due date. A distributor's phone promise, an alternate still being evaluated and the replacement the supplier suggests all appear in their own section, beside the gap and never subtracted from it.
 
-The brief ends with questions for component engineering and program management, the gaps in your own records, and the decisions that belong to sourcing. It qualifies no alternative, approves no design change, orders nothing and writes to nobody. For a supplier problem that is not about a named part, use [supplier risk alert brief](https://fullypowered.ai/capabilities/supplier-risk-alert-brief/); for routine buying, use [inventory reorder plan](https://fullypowered.ai/capabilities/inventory-reorder-plan/); to see what can be built from the components on hand, use [kit component availability check](https://fullypowered.ai/capabilities/kit-component-availability-check/).
+The brief ends with questions for component engineering and program management, the gaps in your own records, and the decisions that belong to sourcing. It qualifies no alternative, approves no design change, orders nothing and writes to nobody. For a supplier problem that is not about a named part, use [supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/); for routine buying, use [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/); to see what can be built from the components on hand, use [kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/).
 
 ## Who starts the work, and when
 
@@ -49,9 +49,9 @@ Check that your exports have the default column headers listed in the template, 
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past notice your sourcing lead already knows well, plus cases written in advance: a part in the notice that is not on your list, a lifecycle record that disagrees with the notice, an order with no due date, a header that does not match. The sourcing lead checks every figure against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past notice your sourcing lead already knows well, plus cases written in advance: a part in the notice that is not on your list, a lifecycle record that disagrees with the notice, an order with no due date, a header that does not match. The sourcing lead checks every figure against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -62,11 +62,11 @@ Testing in your environment means running it on a past notice your sourcing lead
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -76,12 +76,12 @@ Testing in your environment means running it on a past notice your sourcing lead
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Supplier risk alert brief](https://fullypowered.ai/capabilities/supplier-risk-alert-brief/)
-- [Inventory reorder plan](https://fullypowered.ai/capabilities/inventory-reorder-plan/)
-- [Kit component availability check](https://fullypowered.ai/capabilities/kit-component-availability-check/)
+- [Supplier risk alert brief](https://fullypowered.ai/workflow templates/supplier-risk-alert-brief/)
+- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
+- [Kit component availability check](https://fullypowered.ai/workflow templates/kit-component-availability-check/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

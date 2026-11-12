@@ -2,7 +2,7 @@
 
 Before a prototype or pilot build, the build lead gets one brief: part shortages, revision conflicts and open actions set against the team’s own build checklist, with allocated parts kept apart from received ones. People confirm; nothing is released.
 
-*Capability template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/pilot-build-readiness-brief/)*
+*Workflow template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/pilot-build-readiness-brief/)*
 
 ## The outcome
 
@@ -41,7 +41,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when pilot builds multiply and the checklist lives in several heads.
 - [New business lines](https://fullypowered.ai/situations/new-business-lines/), when a first physical product is added to an existing company.
 
-It does not release orders to a production floor; [job readiness packet](https://fullypowered.ai/capabilities/job-readiness-packet/) matches requirements to approved drawings for that. It does not rebuild a schedule; [production schedule rebuild](https://fullypowered.ai/capabilities/production-schedule-rebuild/) does. [Kit component availability check](https://fullypowered.ai/capabilities/kit-component-availability-check/) works out how many sets can be sold, which is a different question.
+It does not release orders to a production floor; [job readiness packet](https://fullypowered.ai/workflows/job-readiness-packet/) matches requirements to approved drawings for that. It does not rebuild a schedule; [production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/) does. [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/) works out how many sets can be sold, which is a different question.
 
 ## What has to change for your company
 
@@ -54,9 +54,9 @@ It does not release orders to a production floor; [job readiness packet](https:/
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words, from its own published map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it, and the run was made by an assistant that had not written the template, before the example's own output was read. The pasted instructions, the output format and the example were edited after that run (the record lists the edits), and those edits have not been run again. It has not yet been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words, from its own published map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it, and the run was made by an assistant that had not written the template, before the example's own output was read. The pasted instructions, the output format and the example were edited after that run (the record lists the edits), and those edits have not been run again. It has not yet been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past build your team already knows, with hard cases written in advance: a part with no row in the parts report, a drawing at a different revision from the bill of materials, received parts at an old revision, an action with no owner and a promised date after the build. The build lead checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past build your team already knows, with hard cases written in advance: a part with no row in the parts report, a drawing at a different revision from the bill of materials, received parts at an old revision, an action with no owner and a promised date after the build. The build lead checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -67,11 +67,11 @@ Testing in your environment means running it on a past build your team already k
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -81,12 +81,12 @@ Testing in your environment means running it on a past build your team already k
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Job readiness packet](https://fullypowered.ai/capabilities/job-readiness-packet/)
-- [Production schedule rebuild](https://fullypowered.ai/capabilities/production-schedule-rebuild/)
-- [Kit component availability check](https://fullypowered.ai/capabilities/kit-component-availability-check/)
+- [Job readiness packet](https://fullypowered.ai/workflow templates/job-readiness-packet/)
+- [Production schedule rebuild](https://fullypowered.ai/workflow templates/production-schedule-rebuild/)
+- [Kit component availability check](https://fullypowered.ai/workflow templates/kit-component-availability-check/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

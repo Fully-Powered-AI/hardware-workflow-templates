@@ -1,6 +1,6 @@
 # Product configuration margin sheet
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it when a configuration is about to be quoted, and again when a part is quot
 
 Do not use it:
 
-- to compare margin across a whole range or its channels, to test a request to go below list, to weigh a change to published prices or to cost a shipment that has landed. Those are separate capabilities;
+- to compare margin across a whole range or its channels, to test a request to go below list, to weigh a change to published prices or to cost a shipment that has landed. Those are separate workflow templates;
 - to set the price, choose a margin floor or decide how a cost should be treated. Those are the commercial owner's and the finance lead's decisions;
 - to estimate a missing cost. A part with no cost stays unquoted and is listed;
 - for a quote with several configurations or several quantity tiers at once. Run it once for each.

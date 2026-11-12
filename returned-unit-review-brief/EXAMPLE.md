@@ -1,6 +1,6 @@
 # Returned unit review brief: an invented example
 
-*Illustrative example with invented data.* The company, its customer, its products and every serial, date and figure below are invented. Company X is an invented 40-person business that makes wireless environmental sensor nodes and a hub. Dana is its service coordinator. On Monday 9 November 2026 a return request arrives from Customer A, and the service coordinator runs the capability template on it.
+*Illustrative example with invented data.* The company, its customer, its products and every serial, date and figure below are invented. Company X is an invented 40-person business that makes wireless environmental sensor nodes and a hub. Dana is its service coordinator. On Monday 9 November 2026 a return request arrives from Customer A, and the service coordinator runs the workflow template on it.
 
 The inputs come first, in full, so the template can be run on them. The brief follows.
 

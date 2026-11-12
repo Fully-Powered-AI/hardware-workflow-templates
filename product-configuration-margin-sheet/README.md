@@ -2,7 +2,7 @@
 
 When sales prepares a quote for a product configuration, the commercial owner and finance lead get one worksheet: the quoted price, the costed bill of materials, assembly and freight, and the allocations, with every unquoted part, one-off charge and uncertain volume listed as an open assumption.
 
-*Capability template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/product-configuration-margin-sheet/)*
+*Workflow template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/product-configuration-margin-sheet/)*
 
 ## The outcome
 
@@ -44,7 +44,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/), where standard costs were set long ago and quietly aged.
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when quotes multiply faster than finance can review them one by one.
 
-It prices one configuration for one quote. It is a different piece of work from [Range margin by channel review](https://fullypowered.ai/capabilities/range-margin-by-channel-review/), which compares margin across a range and its channels, from [Discount request review](https://fullypowered.ai/capabilities/discount-request-review/), which tests a request to go below list against your policy, from [Price change review](https://fullypowered.ai/capabilities/price-change-review/), which weighs a change to published prices, and from [Product landed cost worksheet](https://fullypowered.ai/capabilities/product-landed-cost-worksheet/), which works out the cost of goods after a shipment arrives.
+It prices one configuration for one quote. It is a different piece of work from [Range margin by channel review](https://fullypowered.ai/workflows/range-margin-by-channel-review/), which compares margin across a range and its channels, from [Discount request review](https://fullypowered.ai/workflows/discount-request-review/), which tests a request to go below list against your policy, from [Price change review](https://fullypowered.ai/workflows/price-change-review/), which weighs a change to published prices, and from [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/), which works out the cost of goods after a shipment arrives.
 
 ## What has to change for your company
 
@@ -52,9 +52,9 @@ Fix the column headers of your six inputs once, or map your system's names to th
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude, by the person who revised it, not blind; the record is published with it, and covers the revised version only for the cases that example contains (an unquoted part, estimates in the total, a stale cost, an unallocated charge, a missing cost type and a volume case below the spread rule's). Rules for a header mismatch, a contradicting line, a duplicate line, a differing currency and missing files have not been run. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude, by the person who revised it, not blind; the record is published with it, and covers the revised version only for the cases that example contains (an unquoted part, estimates in the total, a stale cost, an unallocated charge, a missing cost type and a volume case below the spread rule's). Rules for a header mismatch, a contradicting line, a duplicate line, a differing currency and missing files have not been run. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past quote your finance lead already knows, with cases written in advance: a part with no cost, a tooling charge with no rule, a forecast volume below the volume the tooling was spread over. The finance lead checks every figure against the source files before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your environment means running it on a past quote your finance lead already knows, with cases written in advance: a part with no cost, a tooling charge with no rule, a forecast volume below the volume the tooling was spread over. The finance lead checks every figure against the source files before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -65,11 +65,11 @@ Testing in your environment means running it on a past quote your finance lead a
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -79,12 +79,12 @@ Testing in your environment means running it on a past quote your finance lead a
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Product landed cost worksheet](https://fullypowered.ai/capabilities/product-landed-cost-worksheet/)
-- [Discount request review](https://fullypowered.ai/capabilities/discount-request-review/)
-- [Price change review](https://fullypowered.ai/capabilities/price-change-review/)
+- [Product landed cost worksheet](https://fullypowered.ai/workflow templates/product-landed-cost-worksheet/)
+- [Discount request review](https://fullypowered.ai/workflow templates/discount-request-review/)
+- [Price change review](https://fullypowered.ai/workflow templates/price-change-review/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

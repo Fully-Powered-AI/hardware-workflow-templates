@@ -1,6 +1,6 @@
 # Evaluation unit trial review
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it when an evaluation reaches its review milestone, a few days before the me
 
 Do not use it:
 
-- to plan an evaluation or write its criteria. The criteria are agreed with the customer first; this capability reads them;
+- to plan an evaluation or write its criteria. The criteria are agreed with the customer first; this workflow template reads them;
 - to prepare a regular review for an existing customer (use quarterly business review preparation);
 - to list what each side promised in meetings and emails (use account commitments check);
 - to write the tests for a pilot before it starts (use pilot acceptance-test preparation);
