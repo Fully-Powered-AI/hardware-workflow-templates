@@ -21,7 +21,7 @@ A sourcing lead, or a buyer for them, starts it the day a supplier notice about 
 - **The supplier notice,** pasted as received, with the dates it states for each part.
 - **The affected part list,** mapping your part numbers to the supplier's.
 - **The where-used export** from your bill of materials system.
-- **The inventory export,** with stock held, reserved and on order.
+- **The inventory export,** with stock held, reserved and on order, from your inventory system or ERP.
 - **The demand plan,** by assembly and month.
 - **The alternates list,** with the status of each and who approved it.
 - **Availability notes,** if you have any: what a distributor or the supplier has said is available, however informal.
