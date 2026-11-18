@@ -287,6 +287,6 @@ decides.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Not yet tested in a client environment.
 - Revised the same day after the writer's own check and a first run on the invented example. The open points that run found are now settled in the text: what counts as rows used, drawing rows for a replaced part, statuses on assembly stock, the numbering order of questions, which items the assembly stock question names, and a shorter Not found section. No open point from that run remains.
 - Revised again on 10 November 2026 after the independent review of round 1. The instruction block is now complete on its own: the question triggers and all fixed wordings are inside it. Open purchase orders are looked up for changed items and substitutes only. Stock of a named substitute is stated to raise no question. The example was re-run from the block and output format alone; see the record.

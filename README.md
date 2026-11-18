@@ -1,8 +1,10 @@
-# Fully Powered Workflow Templates: Hardware and Physical Technology
+# FullyPowered Workflow Templates: Hardware and Physical Technology
 
 From prototype to production with nothing lost in the handoff. These workflow templates are written for hardware companies. They prepare the indexes, briefs and reviews around a product's records. They design nothing, sign off no test and claim no conformity: the engineers and the quality owner do.
 
 This repository holds 6 workflow templates for operations, product and programme leads at a hardware company. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+
+These templates are examples and a starting point, not a complete list of what a team can do. FullyPowered AI can build any workflow for your company, including one that runs several steps, in a [Workflow Sprint or a scoped implementation](https://fullypowered.ai/pricing/).
 
 ## The workflow templates
 
@@ -31,10 +33,10 @@ Each folder says exactly what was checked and when: who wrote it, that its sourc
 
 ## More workflow templates
 
-The [Fully Powered Workflows Directory](https://fullypowered.ai/workflows/) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
+The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
 
 For the work these templates come from, by area of the business and by task, see [AI workflow examples for hardware companies](https://fullypowered.ai/industries/hardware-and-physical-technology/).
 
 ## Licence and credits
 
-MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [Fully Powered AI](https://fullypowered.ai/).
+MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/).

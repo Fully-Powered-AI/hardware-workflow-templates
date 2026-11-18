@@ -25,7 +25,7 @@
     "pilot-acceptance-test-preparation"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of how a hardware company brings a customer evaluation back to the use case agreed at the start: the agreed criteria, the recorded results, the setup as it was run, the customer's feedback and the support history, each with set column headers; every result labelled by where it was run; every gap turned into a question for the person who can answer it."
+      "title": "FullyPowered AI's own design, written from its published map of how a hardware company brings a customer evaluation back to the use case agreed at the start: the agreed criteria, the recorded results, the setup as it was run, the customer's feedback and the support history, each with set column headers; every result labelled by where it was run; every gap turned into a question for the person who can answer it."
     }
   ]
 }

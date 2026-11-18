@@ -25,7 +25,7 @@
     "obsolete-copy-check"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of how a hardware company follows an engineering change into its records: the change request, the bill of materials, the drawing index, stock and open purchase orders, each with set column headers; every revision compared as written; every gap turned into a question for the person who owns the answer."
+      "title": "FullyPowered AI's own design, written from its published map of how a hardware company follows an engineering change into its records: the change request, the bill of materials, the drawing index, stock and open purchase orders, each with set column headers; every revision compared as written; every gap turned into a question for the person who owns the answer."
     }
   ]
 }

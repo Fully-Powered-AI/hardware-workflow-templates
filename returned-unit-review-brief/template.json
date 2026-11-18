@@ -25,7 +25,7 @@
     "nonconformity-record-draft"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own published map of the work of matching a failed-unit report or return request to the units that shipped, and its own rules for prepared work: fixed labelled inputs with a stop when a header does not match, serials matched only when they are identical, near-misses listed and never chosen, every statement labelled as reported by the customer or recorded in the company's files, changes after shipment and reported modifications listed apart, a checklist of the evidence the company's own policy asks for, possible safety mentions passed first to the named specialist, and no cause, fault finding, conformity statement, handling or credit decided by the assistant."
+      "title": "FullyPowered AI's own published map of the work of matching a failed-unit report or return request to the units that shipped, and its own rules for prepared work: fixed labelled inputs with a stop when a header does not match, serials matched only when they are identical, near-misses listed and never chosen, every statement labelled as reported by the customer or recorded in the company's files, changes after shipment and reported modifications listed apart, a checklist of the evidence the company's own policy asks for, possible safety mentions passed first to the named specialist, and no cause, fault finding, conformity statement, handling or credit decided by the assistant."
     }
   ]
 }

@@ -252,4 +252,4 @@ send anything, decline and name the person who decides.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Tried on its invented example on 10 November 2026 in Claude; the record is published with it (public/trial.md). The stop rules were not run, and the acceptance tests have not been run. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried on its invented example on 10 November 2026 in Claude; the record is published with it (public/trial.md). The stop rules were not run, and the acceptance tests have not been run. Not yet tested in a client environment.
