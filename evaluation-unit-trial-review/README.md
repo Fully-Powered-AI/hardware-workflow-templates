@@ -4,6 +4,8 @@ When a customer's evaluation reaches its review milestone, the account engineer 
 
 *Workflow template · Hardware and physical technology · Sales · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/evaluation-unit-trial-review/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/evaluation-unit-trial-review/?from=gh-hardware-evaluation-unit-trial-review)
+
 ## The outcome
 
 An evaluation unit sits with a customer for weeks, and by the review meeting the picture has usually drifted. The use case that was agreed lives in one email, the results in an engineer's log, the setup changes in memory and the customer's opinion in a few messages. This workflow template pulls them back together. It reads the agreed criteria, the results, the configuration log, the feedback and the support history, and writes the agenda for the review meeting.

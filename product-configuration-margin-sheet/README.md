@@ -4,6 +4,8 @@ When sales prepares a quote for a product configuration, the commercial owner an
 
 *Workflow template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-configuration-margin-sheet/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/product-configuration-margin-sheet/?from=gh-product-configuration-margin-sheet)
+
 ## The outcome
 
 Before a configuration is quoted, the people who own the price see what it rests on. The worksheet sets the proposed unit price beside the cost of the parts, the assembly time, the freight and any one-off charges your own rules spread over the units, and shows the margin that is left and where it stands against your margin floor.

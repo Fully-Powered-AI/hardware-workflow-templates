@@ -4,6 +4,8 @@ Before a prototype or pilot build, the build lead gets one brief: part shortages
 
 *Workflow template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/pilot-build-readiness-brief/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/pilot-build-readiness-brief/?from=gh-hardware-pilot-build-readiness-brief)
+
 ## The outcome
 
 The build meeting starts from facts instead of a hunt through several spreadsheets. The build lead sees which parts are in hand, which are only promised, which have no record at all, where the bill of materials and the drawings disagree about a revision, and which open actions could stop the build. Each line points to the row it came from.

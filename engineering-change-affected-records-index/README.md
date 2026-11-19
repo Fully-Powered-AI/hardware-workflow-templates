@@ -4,6 +4,8 @@ When an engineering change request enters review, the document controller gets o
 
 *Workflow template · Hardware and physical technology · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/engineering-change-affected-records-index/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/engineering-change-affected-records-index/?from=gh-engineering-change-affected-records-i)
+
 ## The outcome
 
 The people reviewing a change see, before they meet, where it lands. For each changed part the index shows every assembly that uses it, the revision each assembly points to, the drawing index rows, the stock held at each revision and the purchase orders still open. Nothing is guessed to fill a gap.

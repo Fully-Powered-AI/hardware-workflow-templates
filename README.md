@@ -2,9 +2,11 @@
 
 From prototype to production with nothing lost in the handoff. These workflow templates are written for hardware companies. They prepare the indexes, briefs and reviews around a product's records. They design nothing, sign off no test and claim no conformity: the engineers and the quality owner do.
 
-This repository holds 6 workflow templates for operations, product and programme leads at a hardware company. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
 
-These templates are examples and a starting point, not a complete list of what a team can do. FullyPowered AI can build any workflow for your company, including one that runs several steps, in a [Workflow Sprint or a scoped implementation](https://fullypowered.ai/pricing/).
+**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for hardware companies](https://fullypowered.ai/industries/hardware-and-physical-technology/?from=gh-hardware) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-hardware)
+
+This repository holds 6 workflow templates for operations, product and programme leads at a hardware company. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The workflow templates
 

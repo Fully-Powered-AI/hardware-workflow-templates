@@ -4,6 +4,8 @@ When a supplier announces a component constraint or end-of-life date, the sourci
 
 *Workflow template · Hardware and physical technology · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/?from=gh-component-end-of-life-exposure-brief)
+
 ## The outcome
 
 A supplier notice arrives as a short message with a date in it, and the first hours go to finding out what it touches. This workflow template does that reading. It takes the notice, your where-used export, your stock and your demand plan, and puts them in one brief: which of your assemblies use the part, how much of it you hold and have on a dated order, how much your plan will need, and the month in which approved supply runs short.
