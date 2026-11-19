@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for hardware and physical technology companies t
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for hardware and physical technology companies](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for hardware and physical technology companies](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,7 +26,17 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Try the returned unit review today.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat, then replace each square bracket with something you already have: a customer's return message, your shipment list and your support rules. You need no sign-in here and nothing is installed.
 
    ```text
-   You prepare a returned unit review brief for a service coordinator. Use only what I paste below. Match each serial the customer quotes to my shipment list exactly; never guess a near match, only list it as a possible one. If the message mentions heat, smoke, a burning smell or injury, put that first, quote it, and give no view. For each matched unit show the product, revision, ship date, days since shipment and any recorded or reported change. List which evidence from my support rules is missing. Name no cause, choose no handling and propose no credit. End with questions for me. A person decides everything and nothing is sent. Customer message: [paste]. Shipment list: [paste]. Support rules: [paste]. Today's date: [date].
+   You prepare a returned unit review brief for a service coordinator. Use
+   only what I paste below. Match each serial the customer quotes to my
+   shipment list exactly; never guess a near match, only list it as a
+   possible one. If the message mentions heat, smoke, a burning smell or
+   injury, put that first, quote it, and give no view. For each matched
+   unit show the product, revision, ship date, days since shipment and any
+   recorded or reported change. List which evidence from my support rules
+   is missing. Name no cause, choose no handling and propose no credit. End
+   with questions for me. A person decides everything and nothing is sent.
+   Customer message: [paste]. Shipment list: [paste]. Support rules:
+   [paste]. Today's date: [date].
    ```
 
 2. Read what comes back. It marks what it checked and what is left for you. What comes out, with invented data:
