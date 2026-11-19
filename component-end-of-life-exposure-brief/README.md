@@ -1,10 +1,17 @@
 # Component end-of-life exposure brief
 
-When a supplier announces a component constraint or end-of-life date, the sourcing lead gets one brief: where the part is used, stock and demand set against the stated dates, and questions about replacements, with unverified availability kept apart from approved supply.
+When a supplier announces an end-of-life date, get one brief of where the part is used and when approved supply runs short. Sourcing decides.
 
-*Workflow template · Hardware and physical technology · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Component end-of-life exposure brief on our website](https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/?from=gh-component-end-of-life-exposure-brief)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Hardware and physical technology · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/component-end-of-life-exposure-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief)*
 
 ## The outcome
 
@@ -12,7 +19,7 @@ A supplier notice arrives as a short message with a date in it, and the first ho
 
 Every date in the brief comes from the notice and is shown with the days remaining. Nothing is assumed where the notice is silent; it says "not stated". Supply is counted only when it is held or on an order with a due date. A distributor's phone promise, an alternate still being evaluated and the replacement the supplier suggests all appear in their own section, beside the gap and never subtracted from it.
 
-The brief ends with questions for component engineering and program management, the gaps in your own records, and the decisions that belong to sourcing. It qualifies no alternative, approves no design change, orders nothing and writes to nobody. For a supplier problem that is not about a named part, use [supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/); for routine buying, use [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/); to see what can be built from the components on hand, use [kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/).
+The brief ends with questions for component engineering and program management, the gaps in your own records, and the decisions that belong to sourcing. It qualifies no alternative, approves no design change, orders nothing and writes to nobody. For a supplier problem that is not about a named part, use [supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief); for routine buying, use [inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief); to see what can be built from the components on hand, use [kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief).
 
 ## Who starts the work, and when
 
@@ -37,13 +44,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/), where one end-of-life date can reach several builds at once.
-- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/), where the notice arrives and the purchasing proposals are made.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), where one small part can stop a whole product.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where purchased components feed the build plan.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), where a connected or electronic product depends on a few bought-in components.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where notices land in a buyer's inbox and the where-used picture lives in a few heads.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/), when more products share more parts than one person can hold in mind.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief), where one end-of-life date can reach several builds at once.
+- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief), where the notice arrives and the purchasing proposals are made.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief), where one small part can stop a whole product.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief), where purchased components feed the build plan.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief), where a connected or electronic product depends on a few bought-in components.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief), where notices land in a buyer's inbox and the where-used picture lives in a few heads.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief), when more products share more parts than one person can hold in mind.
 
 ## What has to change for your company
 
@@ -53,7 +60,7 @@ Check that your exports have the default column headers listed in the template, 
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past notice your sourcing lead already knows well, plus cases written in advance: a part in the notice that is not on your list, a lifecycle record that disagrees with the notice, an order with no due date, a header that does not match. The sourcing lead checks every figure against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past notice your sourcing lead already knows well, plus cases written in advance: a part in the notice that is not on your list, a lifecycle record that disagrees with the notice, an order with no due date, a header that does not match. The sourcing lead checks every figure against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -80,10 +87,10 @@ Testing in your environment means running it on a past notice your sourcing lead
 
 ## Related workflow templates
 
-- [Supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/)
-- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
-- [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/)
+- [Supplier risk alert brief](https://fullypowered.ai/workflows/supplier-risk-alert-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief)
+- [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-component-end-of-life-exposure-brief&from=gh-component-end-of-life-exposure-brief).

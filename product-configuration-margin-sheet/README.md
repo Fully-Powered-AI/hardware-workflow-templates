@@ -1,10 +1,17 @@
 # Product configuration margin sheet
 
-When sales prepares a quote for a product configuration, the commercial owner and finance lead get one worksheet: the quoted price, the costed bill of materials, assembly and freight, and the allocations, with every unquoted part, one-off charge and uncertain volume listed as an open assumption.
+One worksheet for a quoted configuration: price, costed parts, assembly and freight, margin against your floor, and open assumptions. People decide.
 
-*Workflow template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-configuration-margin-sheet/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Product configuration margin sheet on our website](https://fullypowered.ai/workflows/product-configuration-margin-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/product-configuration-margin-sheet/?from=gh-product-configuration-margin-sheet)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-configuration-margin-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet)*
 
 ## The outcome
 
@@ -38,15 +45,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/), where cost treatment and margin are validated before a price is approved.
-- [Sales](https://fullypowered.ai/functions/sales/), where the quote is prepared and the question "what does this configuration really cost us" arrives.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), where one product ships in many configurations and some parts are still unquoted when the customer asks.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where assembly time and freight belong in the price.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), where bundles and variants are quoted to retail and trade buyers.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where standard costs were set long ago and quietly aged.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when quotes multiply faster than finance can review them one by one.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), where cost treatment and margin are validated before a price is approved.
+- [Sales](https://fullypowered.ai/functions/sales/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), where the quote is prepared and the question "what does this configuration really cost us" arrives.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), where one product ships in many configurations and some parts are still unquoted when the customer asks.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), where assembly time and freight belong in the price.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), where bundles and variants are quoted to retail and trade buyers.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), where standard costs were set long ago and quietly aged.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), when quotes multiply faster than finance can review them one by one.
 
-It prices one configuration for one quote. It is a different piece of work from [Range margin by channel review](https://fullypowered.ai/workflows/range-margin-by-channel-review/), which compares margin across a range and its channels, from [Discount request review](https://fullypowered.ai/workflows/discount-request-review/), which tests a request to go below list against your policy, from [Price change review](https://fullypowered.ai/workflows/price-change-review/), which weighs a change to published prices, and from [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/), which works out the cost of goods after a shipment arrives.
+It prices one configuration for one quote. It is a different piece of work from [Range margin by channel review](https://fullypowered.ai/workflows/range-margin-by-channel-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), which compares margin across a range and its channels, from [Discount request review](https://fullypowered.ai/workflows/discount-request-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), which tests a request to go below list against your policy, from [Price change review](https://fullypowered.ai/workflows/price-change-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), which weighs a change to published prices, and from [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet), which works out the cost of goods after a shipment arrives.
 
 ## What has to change for your company
 
@@ -56,7 +63,7 @@ Fix the column headers of your six inputs once, or map your system's names to th
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude, by the person who revised it, not blind; the record is published with it, and covers the revised version only for the cases that example contains (an unquoted part, estimates in the total, a stale cost, an unallocated charge, a missing cost type and a volume case below the spread rule's). Rules for a header mismatch, a contradicting line, a duplicate line, a differing currency and missing files have not been run. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past quote your finance lead already knows, with cases written in advance: a part with no cost, a tooling charge with no rule, a forecast volume below the volume the tooling was spread over. The finance lead checks every figure against the source files before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your environment means running it on a past quote your finance lead already knows, with cases written in advance: a part with no cost, a tooling charge with no rule, a forecast volume below the volume the tooling was spread over. The finance lead checks every figure against the source files before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -83,10 +90,10 @@ Testing in your environment means running it on a past quote your finance lead a
 
 ## Related workflow templates
 
-- [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/)
-- [Discount request review](https://fullypowered.ai/workflows/discount-request-review/)
-- [Price change review](https://fullypowered.ai/workflows/price-change-review/)
+- [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet)
+- [Discount request review](https://fullypowered.ai/workflows/discount-request-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet)
+- [Price change review](https://fullypowered.ai/workflows/price-change-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet).

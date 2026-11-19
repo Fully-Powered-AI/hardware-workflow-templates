@@ -1,10 +1,17 @@
 # Returned unit review brief
 
-When a failed-unit report or return request arrives, the service coordinator gets one brief tying the customer's report to each unit's shipment record, serial and recorded configuration, with unmatched serials and missing evidence listed. It names no cause.
+Tie a failed-unit report to each unit's shipment record and configuration, with unmatched serials and missing evidence listed. A person decides.
 
-*Workflow template · Hardware and physical technology · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/returned-unit-review-brief/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Returned unit review brief on our website](https://fullypowered.ai/workflows/returned-unit-review-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/returned-unit-review-brief/?from=gh-hardware-returned-unit-review-brief)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Hardware and physical technology · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/returned-unit-review-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief)*
 
 ## The outcome
 
@@ -12,7 +19,7 @@ A customer writes that three units have stopped working and wants them replaced.
 
 Each serial the customer quotes is matched to the shipment record only when it is identical. A serial that is one character away from a record is listed as a possible match and never chosen for you. For every matched unit the brief shows the product, revision, ship date, order and the configuration on file, the days since it shipped against the period your policy states, and anything recorded after shipment. Changes the customer mentions, such as a part swapped, are listed as reported. The evidence your policy asks for is checked off unit by unit, and what is missing is listed.
 
-Any mention of heat, a burning smell, smoke, swelling or injury goes to the top of the brief with the specialist your policy names, before anything else. The brief identifies no fault, says nothing about whether a unit meets its specification and recommends no handling. For a case already with engineering, use [field issue handoff to engineering](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/); for a complaint or refund request on its own, [complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/); to record a nonconformity, [nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/).
+Any mention of heat, a burning smell, smoke, swelling or injury goes to the top of the brief with the specialist your policy names, before anything else. The brief identifies no fault, says nothing about whether a unit meets its specification and recommends no handling. For a case already with engineering, use [field issue handoff to engineering](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief); for a complaint or refund request on its own, [complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief); to record a nonconformity, [nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief).
 
 ## Who starts the work, and when
 
@@ -35,13 +42,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/), where a return request starts as a few lines from a customer.
-- [Quality management](https://fullypowered.ai/functions/quality-management/), where the quality owner decides handling and needs the unit's record beside the report.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), where each unit ships with a serial number and a recorded build.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where the plant's records say what left the dock.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), where connected products come back from people who never wrote down their setup.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where return handling lives in a few people's habits.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/), when return requests outgrow what one coordinator can look up by hand.
+- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief), where a return request starts as a few lines from a customer.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief), where the quality owner decides handling and needs the unit's record beside the report.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief), where each unit ships with a serial number and a recorded build.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief), where the plant's records say what left the dock.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief), where connected products come back from people who never wrote down their setup.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief), where return handling lives in a few people's habits.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief), when return requests outgrow what one coordinator can look up by hand.
 
 ## What has to change for your company
 
@@ -51,7 +58,7 @@ Check that your exports have the default column headers listed in the template, 
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the person running it had already read the example's brief and the record of an earlier run, so it shows the revised instructions reach the example's brief, not that they would on a stranger's records. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past return your service team already knows well, plus cases written in advance: a serial one digit off, a serial that appears twice, a report that mentions heat, a header that does not match. The coordinator checks every record against the exports before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set.
+Testing in your environment means running it on a past return your service team already knows well, plus cases written in advance: a serial one digit off, a serial that appears twice, a report that mentions heat, a header that does not match. The coordinator checks every record against the exports before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief) builds that test set.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -78,10 +85,10 @@ Testing in your environment means running it on a past return your service team 
 
 ## Related workflow templates
 
-- [Field issue handoff to engineering](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/)
-- [Complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/)
-- [Nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/)
+- [Field issue handoff to engineering](https://fullypowered.ai/workflows/field-issue-handoff-to-engineering/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief)
+- [Complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief)
+- [Nonconformity record draft](https://fullypowered.ai/workflows/nonconformity-record-draft/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief).

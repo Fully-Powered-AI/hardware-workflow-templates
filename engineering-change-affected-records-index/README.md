@@ -1,10 +1,17 @@
 # Engineering change affected records index
 
-When an engineering change request enters review, the document controller gets one index: the assemblies, revisions, stock and open purchase orders the change reaches in the exports supplied, and a question for each owner wherever the records are unclear.
+When a change request enters review, get one index of the assemblies, revisions, stock and open orders it reaches. People decide the change.
 
-*Workflow template · Hardware and physical technology · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/engineering-change-affected-records-index/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Engineering change affected records index on our website](https://fullypowered.ai/workflows/engineering-change-affected-records-index/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/engineering-change-affected-records-index/?from=gh-engineering-change-affected-records-i)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Hardware and physical technology · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/engineering-change-affected-records-index/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i)*
 
 ## The outcome
 
@@ -33,15 +40,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), where a revised part can sit in stock, on order and in several assemblies at once.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), where a packaging or component change reaches stock and suppliers. The same assembly-and-revision walk applies to a product with a bill of materials and open orders.
-- [Energy](https://fullypowered.ai/industries/energy/), where equipment makers and service teams track revisions across assemblies and spares. It suits a team that holds a bill of materials, a drawing index, stock and orders for its equipment.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), which owns the records around a change.
-- [Quality management](https://fullypowered.ai/functions/quality-management/), which controls the documents and records an engineering change touches.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where product records have years of revisions in them.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when change requests multiply faster than one person can trace them.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), where a revised part can sit in stock, on order and in several assemblies at once.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), where a packaging or component change reaches stock and suppliers. The same assembly-and-revision walk applies to a product with a bill of materials and open orders.
+- [Energy](https://fullypowered.ai/industries/energy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), where equipment makers and service teams track revisions across assemblies and spares. It suits a team that holds a bill of materials, a drawing index, stock and orders for its equipment.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), which owns the records around a change.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), which controls the documents and records an engineering change touches.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), where product records have years of revisions in them.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), when change requests multiply faster than one person can trace them.
 
-It is a different piece of work from [Design assumption change register](https://fullypowered.ai/workflows/design-assumption-change-register/), which records changes to design criteria, from [Scope change impact review](https://fullypowered.ai/workflows/scope-change-impact-review/), which weighs new work against a project plan, and from [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/), which looks for withdrawn documents still in use. This one starts from an engineering change request and follows it into the parts, stock and orders.
+It is a different piece of work from [Design assumption change register](https://fullypowered.ai/workflows/design-assumption-change-register/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), which records changes to design criteria, from [Scope change impact review](https://fullypowered.ai/workflows/scope-change-impact-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), which weighs new work against a project plan, and from [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i), which looks for withdrawn documents still in use. This one starts from an engineering change request and follows it into the parts, stock and orders.
 
 ## What has to change for your company
 
@@ -51,7 +58,7 @@ Fix the column headers of your five exports once, or map your system's names to 
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026, and an independent reviewer's findings have since been fixed. It was tried on its invented example in Claude on 10 November 2026, and the record is published with it. No run has yet been made by someone who had not seen the answer. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past change you already know, with cases written in advance: a part with no revision in the bill of materials, stock with no revision recorded, a substitute named but not approved. The document controller checks every line against the exports before anyone relies on the index. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your environment means running it on a past change you already know, with cases written in advance: a part with no revision in the bill of materials, stock with no revision recorded, a substitute named but not approved. The document controller checks every line against the exports before anyone relies on the index. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -78,10 +85,10 @@ Testing in your environment means running it on a past change you already know, 
 
 ## Related workflow templates
 
-- [Design assumption change register](https://fullypowered.ai/workflows/design-assumption-change-register/)
-- [Scope change impact review](https://fullypowered.ai/workflows/scope-change-impact-review/)
-- [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/)
+- [Design assumption change register](https://fullypowered.ai/workflows/design-assumption-change-register/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i)
+- [Scope change impact review](https://fullypowered.ai/workflows/scope-change-impact-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i)
+- [Obsolete copy check](https://fullypowered.ai/workflows/obsolete-copy-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i).

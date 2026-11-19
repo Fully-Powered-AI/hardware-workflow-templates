@@ -1,14 +1,59 @@
-# FullyPowered Workflow Templates: Hardware and Physical Technology
+# AI workflow templates for hardware companies
 
-From prototype to production with nothing lost in the handoff. These workflow templates are written for hardware companies. They prepare the indexes, briefs and reviews around a product's records. They design nothing, sign off no test and claim no conformity: the engineers and the quality owner do.
+FullyPowered Workflow Templates for hardware and physical technology companies turn the AI your company already pays for into a team that knows how the work is done: a sourcing lead with the component end-of-life exposure brief prepared, a build lead with the pilot build readiness brief checked, a service coordinator with the returned unit review brief prepared. 6 workflow templates, made to be customized and deployed. All plain Markdown, all free, MIT license.
 
-**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
+We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
-**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [More examples for hardware companies](https://fullypowered.ai/industries/hardware-and-physical-technology/?from=gh-hardware) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-hardware)
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for hardware and physical technology companies](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-This repository holds 6 workflow templates for operations, product and programme leads at a hardware company. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+**Who this is for**
 
-## The workflow templates
+- Hardware founders and operations heads who have paid for AI and want it doing real work.
+- Programme and product leads who want a workflow their team can run this week.
+- The engineer or coordinator who gets a precise brief and still makes every call.
+
+**What these are for**
+
+- **Your best way of doing it, for the whole team.** One piece of work, written down precisely enough that an assistant prepares it the same way every time.
+- **Work you can check.** Every template says what it needs, what it produces, what it checked and what it could not.
+- **A person decides.** Anything that sends, posts, pays or changes a record waits for someone to approve it.
+- **Tied into your business systems.** A workflow can be designed to pull from the systems your company already runs, and even push data back into them, with guardrails and a person approving. [Browse the Connectors Directory](https://fullypowered.ai/connectors/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme).
+- **Free, open and portable.** MIT-licensed plain instructions that run in the assistant or agent your team already uses: ChatGPT, Claude, Claude Code, Claude Cowork, Codex, Copilot, Gemini, Grok, Perplexity.
+
+**Quick start**
+
+1. **Try the returned unit review today.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat, then replace each square bracket with something you already have: a customer's return message, your shipment list and your support rules. You need no sign-in here and nothing is installed.
+
+   ```text
+   You prepare a returned unit review brief for a service coordinator. Use only what I paste below. Match each serial the customer quotes to my shipment list exactly; never guess a near match, only list it as a possible one. If the message mentions heat, smoke, a burning smell or injury, put that first, quote it, and give no view. For each matched unit show the product, revision, ship date, days since shipment and any recorded or reported change. List which evidence from my support rules is missing. Name no cause, choose no handling and propose no credit. End with questions for me. A person decides everything and nothing is sent. Customer message: [paste]. Shipment list: [paste]. Support rules: [paste]. Today's date: [date].
+   ```
+
+2. Read what comes back. It marks what it checked and what is left for you. What comes out, with invented data:
+
+   ```text
+   RETURNED UNIT REVIEW BRIEF: RR-0318, Customer A
+
+   Prepared for: Dana, service coordinator. Brief date: 2026-11-09. Report received: 2026-11-09.
+   Internal. No fault has been identified, no handling chosen and no credit proposed.
+   Nothing has been sent to the customer.
+
+   SAFETY REFERRAL
+   The report says: "One of the nodes smelled hot when we unplugged it." Refer to the product safety officer before any other step. The unit is not named in the report. The brief gives no view on this.
+
+   THE REPORT
+   Contact A-1, received 2026-11-09. Units quoted: 3 (SN-40217, SN-40219, SN-40233).
+   Reported by the customer: the three nodes stopped reporting to the hub "over the weekend"; the status light is solid red on two and blinking on the third (units not named).
+   Asked for: replacement of the three units; a credit for the downtime (no amount or basis stated).
+   ```
+
+3. Stop there. You will know if this is for you. When you want it fitted to your company, or built into your agents, [that is what we do](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme).
+
+A person starts every workflow, supplies the inputs and decides; the template only prepares and checks, and engineers and the quality owner keep every technical call.
+
+These are samples and a starting point, made to be changed to fit how your company works. Your own work may not appear here, and a workflow can be a single step or many steps built for you.
+
+## The workflow templates here today
 
 - **[Component end-of-life exposure brief](component-end-of-life-exposure-brief/)**: When a supplier announces a component constraint or end-of-life date, the sourcing lead gets one brief: where the part is used, stock and demand set against the stated dates, and questions about replacements, with unverified availability kept apart from approved supply.
 - **[Engineering change affected records index](engineering-change-affected-records-index/)**: When an engineering change request enters review, the document controller gets one index: the assemblies, revisions, stock and open purchase orders the change reaches in the exports supplied, and a question for each owner wherever the records are unclear.
@@ -35,10 +80,10 @@ Each folder says exactly what was checked and when: who wrote it, that its sourc
 
 ## More workflow templates
 
-The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
+The [FullyPowered Workflows Directory](https://fullypowered.ai/workflows/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme) lists every workflow template across functions and industries, with search. A machine-readable list of this repository is in [index.json](index.json).
 
-For the work these templates come from, by area of the business and by task, see [AI workflow examples for hardware companies](https://fullypowered.ai/industries/hardware-and-physical-technology/).
+For the work these templates come from, by area of the business and by task, see [AI workflow examples for hardware companies](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme).
 
 ## Licence and credits
 
-MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/).
+MIT, in [LICENSE](LICENSE) and in every folder. Each folder's SOURCES.md names what the workflow template drew on. Published by [FullyPowered AI](https://fullypowered.ai/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-readme&from=gh-hardware-readme).

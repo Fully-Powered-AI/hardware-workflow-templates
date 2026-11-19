@@ -1,10 +1,17 @@
 # Pilot build readiness brief
 
-Before a prototype or pilot build, the build lead gets one brief: part shortages, revision conflicts and open actions set against the team’s own build checklist, with allocated parts kept apart from received ones. People confirm; nothing is released.
+One brief before a prototype or pilot build: part shortages, revision conflicts and open actions on your checklist. People confirm; nothing is released.
 
-*Workflow template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/pilot-build-readiness-brief/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Pilot build readiness brief on our website](https://fullypowered.ai/workflows/pilot-build-readiness-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/pilot-build-readiness-brief/?from=gh-hardware-pilot-build-readiness-brief)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/pilot-build-readiness-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief)*
 
 ## The outcome
 
@@ -33,17 +40,17 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Project and delivery](https://fullypowered.ai/functions/project-and-delivery/), where the build date is a commitment and every gap needs an owner before it.
-- [Quality management](https://fullypowered.ai/functions/quality-management/), which confirms that what arrived is the revision the build calls for.
-- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/), where a supplier’s partial answer has to stay visible.
-- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/), the teams that put a first batch together from many suppliers.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), for a pilot run before a production release.
-- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/), when a new physical product reaches its first assembly.
-- [Startups & new ventures](https://fullypowered.ai/situations/startups-and-new-ventures/), when one person is chasing parts, drawings and actions at once.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when pilot builds multiply and the checklist lives in several heads.
-- [New business lines](https://fullypowered.ai/situations/new-business-lines/), when a first physical product is added to an existing company.
+- [Project and delivery](https://fullypowered.ai/functions/project-and-delivery/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), where the build date is a commitment and every gap needs an owner before it.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), which confirms that what arrived is the revision the build calls for.
+- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), where a supplier’s partial answer has to stay visible.
+- [Hardware and physical technology](https://fullypowered.ai/industries/hardware-and-physical-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), the teams that put a first batch together from many suppliers.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), for a pilot run before a production release.
+- [Consumer brands](https://fullypowered.ai/industries/consumer-brands/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), when a new physical product reaches its first assembly.
+- [Startups & new ventures](https://fullypowered.ai/situations/startups-and-new-ventures/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), when one person is chasing parts, drawings and actions at once.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), when pilot builds multiply and the checklist lives in several heads.
+- [New business lines](https://fullypowered.ai/situations/new-business-lines/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief), when a first physical product is added to an existing company.
 
-It does not release orders to a production floor; [job readiness packet](https://fullypowered.ai/workflows/job-readiness-packet/) matches requirements to approved drawings for that. It does not rebuild a schedule; [production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/) does. [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/) works out how many sets can be sold, which is a different question.
+It does not release orders to a production floor; [job readiness packet](https://fullypowered.ai/workflows/job-readiness-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) matches requirements to approved drawings for that. It does not rebuild a schedule; [production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) does. [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) works out how many sets can be sold, which is a different question.
 
 ## What has to change for your company
 
@@ -58,7 +65,7 @@ It does not release orders to a production floor; [job readiness packet](https:/
 
 FullyPowered AI wrote this workflow template in its own words, from its own published map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it, and the run was made by an assistant that had not written the template, before the example's own output was read. The pasted instructions, the output format and the example were edited after that run (the record lists the edits), and those edits have not been run again. It has not yet been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past build your team already knows, with hard cases written in advance: a part with no row in the parts report, a drawing at a different revision from the bill of materials, received parts at an old revision, an action with no owner and a promised date after the build. The build lead checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past build your team already knows, with hard cases written in advance: a part with no row in the parts report, a drawing at a different revision from the bill of materials, received parts at an old revision, an action with no owner and a promised date after the build. The build lead checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -85,10 +92,10 @@ Testing in your environment means running it on a past build your team already k
 
 ## Related workflow templates
 
-- [Job readiness packet](https://fullypowered.ai/workflows/job-readiness-packet/)
-- [Production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/)
-- [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/)
+- [Job readiness packet](https://fullypowered.ai/workflows/job-readiness-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief)
+- [Production schedule rebuild](https://fullypowered.ai/workflows/production-schedule-rebuild/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief)
+- [Kit component availability check](https://fullypowered.ai/workflows/kit-component-availability-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief).
