@@ -1,6 +1,6 @@
-# Pilot build readiness brief: an invented example
+# Pilot build readiness brief: an example
 
-*Illustrative example with invented data.* The company, the product, the part numbers, the suppliers, the quantities and every date below are invented. The company is an invented maker of a small field data logger, called the Company here, preparing a pilot build of six units. Suppliers are named by letter and people by role.
+*Illustrative example with sample data.* The company, the product, the part numbers, the suppliers, the quantities and every date below are illustrative. The company is an illustrative maker of a small field data logger, called the Company here, preparing a pilot build of six units. Suppliers are named by letter and people by role.
 
 The inputs come first, in full, so the template can be run on them. The brief follows. Labels and sections are set as plain text in the template; they are set in list form here for reading.
 

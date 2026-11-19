@@ -1,10 +1,10 @@
-# Pilot build readiness brief: trial on the invented example
+# Pilot build readiness brief: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (the six input files: build settings, planned bill of materials, drawing index, parts report, open actions and build checklist). No client data was used. The run was made by a model that did not write the template. It read the template and the example's inputs first, produced the brief, and only then compared it with the example's published output.
+The inputs were the example in `public/example.md` (the six input files: build settings, planned bill of materials, drawing index, parts report, open actions and build checklist). No client data was used. The run was made by a model that did not write the template. It read the template and the example's inputs first, produced the brief, and only then compared it with the example's published output.
 
 ## What came out
 
@@ -88,7 +88,7 @@ Draft for the build lead. This brief authorizes no build, signs off no revision 
 - **A gap between the instruction block and the rest of the template.** The fenced instruction block says "use the output format exactly" but does not contain the format, and it leaves out several rules that sit only in the procedure: the stops for a repeated part number in the parts report or the bill of materials, for a units value that is not a whole number, and for a cut-off file; the "open actions not supplied" and "build checklist not supplied" fallbacks; counting actions linked to parts not on the bill of materials; the ordering of the parts and actions lists; and the confirmations step. A run given only the block would not know these. This run had the whole template.
 - **Stale statements in the template.** The acceptance tests are headed "None has been run" and the version notes say "Not yet run on its example". The tests were not run in this trial. Only the one example was.
 - **Nothing in the example exercised** the stale-report path, the repeated-part-number stops, a missing actions or checklist file, a changed header, or the decline of a request to say "ready". Those paths were not tried.
-- **Limits.** This was one run of one model on one invented example. It shows the template can be followed to the example's figures. It does not show how it behaves on real exports, other products, or other AI products, and it is not a test for any client.
+- **Limits.** This was one run of one model on one example. It shows the template can be followed to the example's figures. It does not show how it behaves on real exports, other products, or other AI products, and it is not a test for any client.
 
 ## Edits made after this run
 

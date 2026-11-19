@@ -1,10 +1,10 @@
-# Returned unit review brief: a trial on the invented example
+# Returned unit review brief: a trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Company X, Customer A, return request RR-0318). No client data was used. I took the revised template's instruction block and output format from `member/template.md` and applied them to the example's inputs: the brief date and settings, the return request, the shipment records, the configuration records, the earlier ticket history and the support policy.
+The inputs were the example in `public/example.md` (Company X, Customer A, return request RR-0318). No client data was used. I took the revised template's instruction block and output format from `member/template.md` and applied them to the example's inputs: the brief date and settings, the return request, the shipment records, the configuration records, the earlier ticket history and the support policy.
 
 Limit of this trial. This is a second run. Before writing the brief I had read the example's finished brief and the record of the first run, so nothing here was written blind. It shows that the revised instruction block, applied to the example's inputs, produces the brief the example now gives. It does not show that the template works on a stranger's records.
 
@@ -96,7 +96,7 @@ Nothing has been sent, no record has been changed and no one has been contacted.
 - My brief and the example's agree on content. The wording of the report section differs a little, as the template leaves the phrasing of claims open.
 - Facts not in the inputs: none in my brief that I found.
 - Still open: whether "units quoted" should include an unmatched serial (I counted all three), and whether an attachment named for an item is enough to leave it unasked. The template says only that it is not counted as not supplied.
-- This was one run, by one model, on one invented example, after reading the answer. It does not show the template works on real records, on other assistants, or on cases such as a missing header or a duplicated serial. Those are among the proposed acceptance tests, none of which has been run.
+- This was one run, by one model, on one example, after reading the answer. It does not show the template works on real records, on other assistants, or on cases such as a missing header or a duplicated serial. Those are among the proposed acceptance tests, none of which has been run.
 
 ## After this run
 

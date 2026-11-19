@@ -1,6 +1,6 @@
-# Product configuration margin sheet: an invented example
+# Product configuration margin sheet: an example
 
-*Illustrative example with invented data.* The company, the product, the parts, the costs, the rules and the roles below are made up. The company is Alder Fen Devices, an invented maker of field gateways; Q-2611 is an invented quote. Today's date is 2026-11-10 and the currency is dollars. The sheet is run by the sales operations coordinator for the commercial owner and the finance lead.
+*Illustrative example.* The company, the product, the parts, the costs, the rules and the roles below are made up. The company is Alder Fen Devices, an illustrative maker of field gateways; Q-2611 is an illustrative quote. Today's date is 2026-11-10 and the currency is dollars. The sheet is run by the sales operations coordinator for the commercial owner and the finance lead.
 
 ## What the sales operations coordinator supplies
 

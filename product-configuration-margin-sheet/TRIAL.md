@@ -1,4 +1,4 @@
-# Product configuration margin sheet: tried on its invented example
+# Product configuration margin sheet: tried on its example
 
 - **Product:** Claude, run in Claude Code
 
@@ -6,7 +6,7 @@ Model: Claude Sonnet 5.5 (model ID claude-sonnet-5-5), run as a coding agent in 
 
 This is the second run, of the revised version. The first run found defects that were then fixed (see the end of this record); the first run's output is not reproduced here because the revision replaces it.
 
-The inputs are the invented example in [example.md](example.md): the made-up company Alder Fen Devices and its made-up quote Q-2611. No client data was used. The instructions followed were the fenced block and the output format in the revised member template. The inputs used were the quote request, the eight-line bill of materials, the assembly estimate, the freight input, the three other costs, the two allocation rules and the settings, all as written in the example.
+The inputs are the example in [example.md](example.md): the made-up company Alder Fen Devices and its made-up quote Q-2611. No client data was used. The instructions followed were the fenced block and the output format in the revised member template. The inputs used were the quote request, the eight-line bill of materials, the assembly estimate, the freight input, the three other costs, the two allocation rules and the settings, all as written in the example.
 
 One thing to know before reading the result: this was not a blind run. I had read the example, including its published output, before the run, and I wrote the template revision and the example's wording myself. I worked each figure from the inputs and the revised instruction block, and I checked the result against the example afterwards. Treat the match as a check that the revised block is followable and the arithmetic consistent, not as proof that someone seeing the inputs cold would get the same answer.
 
@@ -98,4 +98,4 @@ What this run did not cover: the stop rules (a header that does not match, a bil
 
 The first run listed defects in the template, all now addressed: the instruction block was shorter than the procedure (missing the settings stops and defaults, the default cost types, the duplicate-line and quantity stops, the assembly-is-an-estimate rule, the rule not to repeat passwords or personal details, and the blanks assumption); the version note said the template had not been tried; the shortfall was worded two ways; the commercial owner's question number was not explained; stale costs, estimates not in the total, finance questions, rounding of percentage results and thousands separators were undefined; and the sheet's "Prepared by" line lacked an article. The revision defines each.
 
-The trial covers one run on one invented example. It does not show how the template performs on a real company's files.
+The trial covers one run on one example. It does not show how the template performs on a real company's files.

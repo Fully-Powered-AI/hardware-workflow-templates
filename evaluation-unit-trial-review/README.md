@@ -8,7 +8,7 @@ Before an evaluation review, get an agenda that sets agreed criteria beside reco
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Hardware and physical technology · Sales · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/evaluation-unit-trial-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-evaluation-unit-trial-review&from=gh-hardware-evaluation-unit-trial-review)*
@@ -38,7 +38,7 @@ The account engineer, or the account owner, starts it when an evaluation reaches
 
 One draft agenda in a fixed order: questions for the account engineer to verify before the meeting; the agreed use case; results by criterion; the setup as it was run; the customer's feedback; the support history; questions for the customer, for the owner to raise; and next-step options. Every empty section says so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -58,7 +58,7 @@ Check that your files have the default column headers listed in the template, or
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once in Claude on 2026-11-10 on its invented example, in a run that saw the example's output first, so that run is weaker evidence than a blind one. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once in Claude on 2026-11-10 on its example, in a run that saw the example's output first, so that run is weaker evidence than a blind one. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past evaluation your account engineer already knows well, plus cases written in advance: a header that does not match, a result under a setup version that is not in the log, a criterion with only bench results, a target written as text. The account engineer checks every figure against the records before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-evaluation-unit-trial-review&from=gh-hardware-evaluation-unit-trial-review) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-evaluation-unit-trial-review&from=gh-hardware-evaluation-unit-trial-review) describes the record we keep.
 
@@ -66,13 +66,13 @@ Testing in your environment means running it on a past evaluation your account e
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

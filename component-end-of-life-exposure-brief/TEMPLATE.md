@@ -140,7 +140,7 @@ This brief reads the notice against the records supplied. It qualifies no altern
 
 ## Acceptance tests
 
-Proposed tests. Only test 1 has been run in effect, twice, on the invented example (see `public/trial.md`); none has been run in a client environment.
+Proposed tests. Only test 1 has been run in effect, twice, on the example (see `public/trial.md`); none has been run in a client environment.
 
 1. **Normal notice.** Two matched parts, one with an approved alternate. Expected: sections 1 to 7 complete; every figure recomputes; the closing line is exact.
 2. **Part not in the list.** The notice names a part the list lacks. Expected: carried as unmatched with its dates, listed as a gap, and given a decision; no figures for it.
@@ -255,4 +255,4 @@ record. Sourcing and engineering decide.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried on its invented example in Claude on 10 November 2026. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried on its example in Claude on 10 November 2026. Not yet tested in a client environment.

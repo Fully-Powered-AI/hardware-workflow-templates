@@ -8,7 +8,7 @@ One worksheet for a quoted configuration: price, costed parts, assembly and frei
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Hardware and physical technology · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-configuration-margin-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet)*
@@ -41,7 +41,7 @@ One worksheet in a fixed order: the quote, the materials, the assembly, the frei
 
 The worksheet stops rather than guesses when a column header does not match, a unit cost is missing for a line that says it has one, or the currency differs between files. A part with no cost is never counted as zero.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -61,7 +61,7 @@ Fix the column headers of your six inputs once, or map your system's names to th
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude, by the person who revised it, not blind; the record is published with it, and covers the revised version only for the cases that example contains (an unquoted part, estimates in the total, a stale cost, an unallocated charge, a missing cost type and a volume case below the spread rule's). Rules for a header mismatch, a contradicting line, a duplicate line, a differing currency and missing files have not been run. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its example on 10 November 2026 in Claude, by the person who revised it, not blind; the record is published with it, and covers the revised version only for the cases that example contains (an unquoted part, estimates in the total, a stale cost, an unallocated charge, a missing cost type and a volume case below the spread rule's). Rules for a header mismatch, a contradicting line, a duplicate line, a differing currency and missing files have not been run. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past quote your finance lead already knows, with cases written in advance: a part with no cost, a tooling charge with no rule, a forecast volume below the volume the tooling was spread over. The finance lead checks every figure against the source files before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-product-configuration-margin-sheet&from=gh-product-configuration-margin-sheet) sets those cases up.
 
@@ -69,13 +69,13 @@ Testing in your environment means running it on a past quote your finance lead a
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

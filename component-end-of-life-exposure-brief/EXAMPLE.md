@@ -1,6 +1,6 @@
-# Component end-of-life exposure brief: an invented example
+# Component end-of-life exposure brief: an example
 
-*Illustrative example with invented data.* The companies, parts, assemblies, orders, stock figures and notice below are invented. Company M is an invented maker of connected air-quality monitors. Supplier A, also invented, makes the electronic components Company M buys. Supplier A has sent a notice about three of its parts. A buyer prepares the brief for Company M's sourcing lead, who decides what to propose. Roles, not names, stand for people.
+*Illustrative example with sample data.* The companies, parts, assemblies, orders, stock figures and notice below are illustrative. Company M is an illustrative maker of connected air-quality monitors. Supplier A, also invented, makes the electronic components Company M buys. Supplier A has sent a notice about three of its parts. A buyer prepares the brief for Company M's sourcing lead, who decides what to propose. Roles, not names, stand for people.
 
 The inputs come first, in full, so the template can be run on them. The brief follows.
 

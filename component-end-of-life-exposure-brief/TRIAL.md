@@ -1,10 +1,10 @@
-# Trial record: Component end-of-life exposure brief, run once on its invented example
+# Trial record: Component end-of-life exposure brief, run once on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Company M, Supplier A, notice SA-LC-2611-07: the settings, the notice, the part list, the where-used export, the inventory export, the demand plan, the alternates list and the availability notes), unchanged from the earlier run. No client data was used.
+The inputs were the example in `public/example.md` (Company M, Supplier A, notice SA-LC-2611-07: the settings, the notice, the part list, the where-used export, the inventory export, the demand plan, the alternates list and the availability notes), unchanged from the earlier run. No client data was used.
 
 This is a second run, made on the current `member/template.md` (instruction block and output format) after a review's minor points were applied. It replaces the record of the first run, which had been made on the earlier files. It was not a fresh conversation in a chat product: the template text was read as a file and followed from it. The run was made by the same session that had just edited the template and the example, so it had read the example's published brief before writing its own; it is therefore a weaker test of independence than the first run, and it checks that the edited instructions still lead to a complete, correct brief, not that a stranger would reach it unaided.
 
@@ -94,7 +94,7 @@ This brief reads the notice against the records supplied. It qualifies no altern
 - **Reviewer checklist:** all eight items were checked against this brief and each holds.
 - **Facts not in the inputs.** None was added.
 - **Cases not exercised.** The conditions added to the instruction block (a missing date setting, "alternates list not supplied", an approved row with no approver or reference, "order reference not recorded", a listed part not in the notice) did not arise in this example, so they were read but not exercised. None of the acceptance tests other than the normal notice was run.
-- **Limits of this trial.** One run, one product, one invented example, by the session that had edited the files. It shows the edited instructions can be followed to a complete, correct brief on this example. It does not show how the template performs with a real notice, real exports with messy headers, or in a chat product with pasted text.
+- **Limits of this trial.** One run, one product, one example, by the session that had edited the files. It shows the edited instructions can be followed to a complete, correct brief on this example. It does not show how the template performs with a real notice, real exports with messy headers, or in a chat product with pasted text.
 
 ## Earlier run
 

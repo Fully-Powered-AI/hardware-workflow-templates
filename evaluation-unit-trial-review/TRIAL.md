@@ -1,14 +1,14 @@
-# Evaluation unit trial review: tried once on its invented example
+# Evaluation unit trial review: tried once on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Tarnwick Devices, Customer B, the FX-1 flow monitor). No client data was used. The model that ran it did not write the template.
+The inputs were the example in `public/example.md` (Tarnwick Devices, Customer B, the FX-1 flow monitor). No client data was used. The model that ran it did not write the template.
 
 ## How it was run
 
-The model followed the fenced instruction block and the output format in `member/template.md` on the seven invented inputs: settings, agreed criteria, results, configuration log, customer feedback, support history and account notes. One thing went wrong with the method. The command that opened the example file printed the whole file, so the example's published output was seen before the model produced its own. The model then worked every step from the template's rules and did not copy. Because it saw the answer first, the match below is weaker evidence than a blind run would be.
+The model followed the fenced instruction block and the output format in `member/template.md` on the seven sample inputs: settings, agreed criteria, results, configuration log, customer feedback, support history and account notes. One thing went wrong with the method. The command that opened the example file printed the whole file, so the example's published output was seen before the model produced its own. The model then worked every step from the template's rules and did not copy. Because it saw the answer first, the match below is weaker evidence than a blind run would be.
 
 ## What came out
 
@@ -80,7 +80,7 @@ The model also printed the sections the extract above leaves out (the agreed use
   - Option wording is "fixed", but the output format shows O-lines as "[Option] Available: ..." and the example drops the "Available:" pattern for O6 into a clause that reads awkwardly ("Available: the criteria without a customer-site result stay unanswered").
   - The word list for unrecorded changes is matched on endings. "Mounting" in feedback F2 was judged not to match "moved", but the template does not say how loosely to match.
 - **Nothing was a stop.** No refusal paths (a request to say the unit passed, or to send anything) were exercised, so the template's declines were not tried.
-- **Limits:** one run, one model, one product, on invented data. The template's acceptance tests were not run, and nothing here shows how it behaves with a client's real files.
+- **Limits:** one run, one model, one product, on sample data. The template's acceptance tests were not run, and nothing here shows how it behaves with a client's real files.
 
 ## Note added after this run
 

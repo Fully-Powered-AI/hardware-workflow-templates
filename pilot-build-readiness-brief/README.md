@@ -8,7 +8,7 @@ One brief before a prototype or pilot build: part shortages, revision conflicts 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Hardware and physical technology · Project and delivery · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/pilot-build-readiness-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief)*
@@ -36,7 +36,7 @@ The build lead, or the program manager who runs the build, starts it once the bu
 
 One brief in a fixed order: a summary, the parts that are not yet in hand, the revision conflicts, the open actions, the team’s checklist with what the files show against each item, the questions for the build lead and a confirmation line for engineering, quality, sourcing and the build lead. Empty sections say so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -63,7 +63,7 @@ It does not release orders to a production floor; [job readiness packet](https:/
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words, from its own published map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in Claude; the record is published with it, and the run was made by an assistant that had not written the template, before the example's own output was read. The pasted instructions, the output format and the example were edited after that run (the record lists the edits), and those edits have not been run again. It has not yet been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words, from its own published map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried on its example on 10 November 2026 in Claude; the record is published with it, and the run was made by an assistant that had not written the template, before the example's own output was read. The pasted instructions, the output format and the example were edited after that run (the record lists the edits), and those edits have not been run again. It has not yet been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past build your team already knows, with hard cases written in advance: a part with no row in the parts report, a drawing at a different revision from the bill of materials, received parts at an old revision, an action with no owner and a promised date after the build. The build lead checks every line against the exports before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-pilot-build-readiness-brief&from=gh-hardware-pilot-build-readiness-brief) describes the record we keep.
 
@@ -71,13 +71,13 @@ Testing in your environment means running it on a past build your team already k
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

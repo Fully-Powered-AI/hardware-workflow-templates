@@ -8,7 +8,7 @@ When a change request enters review, get one index of the assemblies, revisions,
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Hardware and physical technology · Quality management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/engineering-change-affected-records-index/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i)*
@@ -36,7 +36,7 @@ The document controller or the operations lead starts it when an engineering cha
 
 One index in a fixed order: the changed items, the assemblies above them, and the questions for each owner. Every line quotes the export values it rests on. The only arithmetic is adding quantities held at the same revision. The index releases no revision, judges no design, and changes no record.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -56,7 +56,7 @@ Fix the column headers of your five exports once, or map your system's names to 
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026, and an independent reviewer's findings have since been fixed. It was tried on its invented example in Claude on 10 November 2026, and the record is published with it. No run has yet been made by someone who had not seen the answer. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026, and an independent reviewer's findings have since been fixed. It was tried on its example in Claude on 10 November 2026, and the record is published with it. No run has yet been made by someone who had not seen the answer. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past change you already know, with cases written in advance: a part with no revision in the bill of materials, stock with no revision recorded, a substitute named but not approved. The document controller checks every line against the exports before anyone relies on the index. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-engineering-change-affected-records-index&from=gh-engineering-change-affected-records-i) sets those cases up.
 
@@ -64,13 +64,13 @@ Testing in your environment means running it on a past change you already know, 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -8,7 +8,7 @@ Tie a failed-unit report to each unit's shipment record and configuration, with 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Hardware and physical technology · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/returned-unit-review-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief)*
@@ -38,7 +38,7 @@ A service coordinator starts it when a failed-unit report or a return request re
 
 One brief in a fixed order: a safety referral if the report mentions one, what the customer reports and asks for, the match of each serial, each matched unit's shipment and configuration record, changes after shipment and reported modifications, earlier history, the evidence found and missing, unmatched serials, conflicts, the decisions each role is asked to make, and questions for the coordinator. Every empty section says so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -56,7 +56,7 @@ Check that your exports have the default column headers listed in the template, 
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the person running it had already read the example's brief and the record of an earlier run, so it shows the revised instructions reach the example's brief, not that they would on a stranger's records. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the person running it had already read the example's brief and the record of an earlier run, so it shows the revised instructions reach the example's brief, not that they would on a stranger's records. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past return your service team already knows well, plus cases written in advance: a serial one digit off, a serial that appears twice, a report that mentions heat, a header that does not match. The coordinator checks every record against the exports before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=hardware-returned-unit-review-brief&from=gh-hardware-returned-unit-review-brief) builds that test set.
 
@@ -64,13 +64,13 @@ Testing in your environment means running it on a past return your service team 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

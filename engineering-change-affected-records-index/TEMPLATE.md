@@ -141,7 +141,7 @@ Draft for the [document controller role]. No revision has been released, no desi
 
 ## Acceptance tests
 
-Proposed tests. None has been run as a stated test. The invented example (`public/example.md`) exercises tests 2 to 7 only in part, and its recorded runs are in `public/trial.md`.
+Proposed tests. None has been run as a stated test. The example (`public/example.md`) exercises tests 2 to 7 only in part, and its recorded runs are in `public/trial.md`.
 
 1. **Plain revision.** One part B to C, used in two assemblies at B, with stock and an order at B. Expected: both assemblies at level 1, Old group, a sourcing and an operations question, an engineering question for serial applicability if none is stated.
 2. **Mixed revisions.** Three assemblies point to B, C and no revision. Expected: Mixed, each assembly named with its group, one engineering question.
@@ -288,5 +288,5 @@ decides.
 ## Version notes
 
 - 0.1.0, 10 November 2026. Written by FullyPowered AI. Not yet tested in a client environment.
-- Revised the same day after the writer's own check and a first run on the invented example. The open points that run found are now settled in the text: what counts as rows used, drawing rows for a replaced part, statuses on assembly stock, the numbering order of questions, which items the assembly stock question names, and a shorter Not found section. No open point from that run remains.
+- Revised the same day after the writer's own check and a first run on the example. The open points that run found are now settled in the text: what counts as rows used, drawing rows for a replaced part, statuses on assembly stock, the numbering order of questions, which items the assembly stock question names, and a shorter Not found section. No open point from that run remains.
 - Revised again on 10 November 2026 after the independent review of round 1. The instruction block is now complete on its own: the question triggers and all fixed wordings are inside it. Open purchase orders are looked up for changed items and substitutes only. Stock of a named substitute is stated to raise no question. The example was re-run from the block and output format alone; see the record.

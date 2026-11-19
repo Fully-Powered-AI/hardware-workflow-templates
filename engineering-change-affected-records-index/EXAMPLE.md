@@ -1,6 +1,6 @@
-# Engineering change affected records index: an invented example
+# Engineering change affected records index: an example
 
-*Illustrative example with invented data.* The company, the parts, the suppliers and every figure below are invented. The company is an invented maker of sensor equipment, called the Company here, and the change request is the invented CR-114. Roles stand in for people and suppliers are lettered. The document controller asks for the index on 10 November 2026. First come the inputs the document controller supplied, in full, then the index the workflow template returned.
+*Illustrative example with sample data.* The company, the parts, the suppliers and every figure below are illustrative. The company is an illustrative maker of sensor equipment, called the Company here, and the change request is the illustrative CR-114. Roles stand in for people and suppliers are lettered. The document controller asks for the index on 10 November 2026. First come the inputs the document controller supplied, in full, then the index the workflow template returned.
 
 ## The inputs
 

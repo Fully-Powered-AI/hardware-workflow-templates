@@ -1,10 +1,10 @@
-# Engineering change affected records index: trial on the invented example
+# Engineering change affected records index: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Sonnet 5.5 (claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-This record covers three runs on the same invented example. No client data was used in any of them. All three were made with Sonnet 5.5; the record kept from the first two does not separate them by model, and it names no other model. The first two runs were made before the independent review of round 1. The third run, made after it, is the one printed in full.
+This record covers three runs on the same example. No client data was used in any of them. All three were made with Sonnet 5.5; the record kept from the first two does not separate them by model, and it names no other model. The first two runs were made before the independent review of round 1. The third run, made after it, is the one printed in full.
 
 ## The first run
 
